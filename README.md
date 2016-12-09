@@ -2,6 +2,7 @@ Monolog Console Processor
 ======================
 
 Monolog Processor for Symfony console component.
+
 Add extra data about console. (The current implementation is only command name)
 
 Usage
@@ -13,7 +14,7 @@ example) **`app/config/config.yml` or `app/config/services.yml`**
 
 ```yaml
 services:
-    monolog.processor.session_request:
+    monolog.processor.console:
         class: Otobank\Monolog\Processor\ConsoleProcessor
         tags:
             - { name: monolog.processor }
