@@ -2,7 +2,9 @@
 
 namespace Otobank\Monolog\Processor;
 
-class ConsoleProcessorTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class ConsoleProcessorTest extends TestCase
 {
     /**
      * @dataProvider providerForInvoke
